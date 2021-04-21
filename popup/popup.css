@@ -1,0 +1,21 @@
+body {
+    min-width: 200px;
+    padding: 4px 0 12px;
+    text-align: center;
+}
+h1 {
+    color: #333;
+}
+.btn {
+    min-width: 60px;
+    border:none;
+    color: #fff;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    padding: 8px 12px;
+    outline: none;
+    cursor: pointer;
+}
+.btn:active {
+    opacity: .8;
+}
