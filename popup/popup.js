@@ -1,8 +1,7 @@
 (function() {
   window.addEventListener('load', function() {
     document.querySelector('#one_key_clear').addEventListener('click', function() {
-
-      window.open('chrome://net-internals/#dns')
+      console.log(window)
       // // re-apply settings
       // chrome.send('reloadProxySettings')
       // // clear bad proxies

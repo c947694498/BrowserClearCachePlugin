@@ -10,8 +10,7 @@
   },
   "browser_action": {
     "default_icon": "icon.png",
-    "default_title": "ClearCache",
-    "default_popup": "popup/popup.html"
+    "default_title": "ClearCache"
   },
   "content_scripts": [
     {
@@ -19,6 +18,11 @@
       "js": ["js/content-script.js"],
       "run_at": "document_start"
     }
+  ],
+  "permissions": [
+    "tabs",
+    "chrome://net-internals/#dns",
+    "chrome://extensions/"
   ],
   "web_accessible_resources": ["js/inject.js"]
 }
